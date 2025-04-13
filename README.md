@@ -19,7 +19,7 @@ STM32를 활용하여 직접 I2C 프로토콜 구현 & 엘레베이터 구현하
 # 1. FSM
 ![image.png](attachment:88eef7e4-2361-430b-aaaa-3a78b4b72248:image.png)
 ![image.png](attachment:e9a69f5e-0fa2-437c-bf58-0b2d9e1f7372:image.png)
-![1](https://github.com/user-attachments/assets/88eef7e4-2361-430b-aaaa-3a78b4b72248g)
+![1](https://github.com/user-attachments/assets/88eef7e4-2361-430b-aaaa-3a78b4b72248)
 
 ---
 
