@@ -19,15 +19,12 @@ STM32를 활용하여 직접 I2C 프로토콜 구현 & 엘레베이터 구현하
 # 1. FSM
 <img width="364" alt="FSM" src="https://github.com/user-attachments/assets/04ee5dea-703b-4259-a989-646d14d2cae2" />
 
-![image.png](attachment:e9a69f5e-0fa2-437c-bf58-0b2d9e1f7372:image.png)
-![1](https://github.com/user-attachments/assets/e9a69f5e-0fa2-437c-bf58-0b2d9e1f7372)
 ---
 
 # 2. 회로도
+<img width="386" alt="회로도" src="https://github.com/user-attachments/assets/4d8bce39-44e9-43a2-ac56-0c572e9f3529" />
+<img width="385" alt="she" src="https://github.com/user-attachments/assets/5ba774fd-6b01-435c-a02c-81c6301a88d8" />
 
-![image.png](attachment:88eef7e4-2361-430b-aaaa-3a78b4b72248:image.png)
-
-![image.png](attachment:e653fe12-b46f-4a9d-89e3-33abb0b67cd3:image.png)
 
 ---
 
@@ -82,12 +79,13 @@ void StartTask04(void *argument)
 3. 아랫 층으로 내려갈 경우 : Down 스크롤
 
 - 1층 화면(잔상효과 남음)
+<img width="464" alt="1" src="https://github.com/user-attachments/assets/47216376-4650-4a8e-9721-e2ce5b0bdad5" />
 
-![image.png](attachment:583dc84e-08d2-4a1b-83cd-97656afd8a3a:image.png)
 
 1. 위로 올라가는 경우
 
-![image.png](attachment:cc5fbb0b-e864-470b-8c93-a69e231ab1bb:image.png)
+<img width="386" alt="2" src="https://github.com/user-attachments/assets/b958e327-2198-4480-bacf-f2128da4471b" />
+
 
 - **FND - shiftregister 기능**
 1. 초기, 층 도착했을 때 : UNDER_BAR 표시
@@ -96,15 +94,17 @@ void StartTask04(void *argument)
 
 1. 초기, 층 도착했을 때
 
-![image.png](attachment:98c17e4d-a606-43d9-a7e9-ada4954a4dd1:image.png)
+<img width="386" alt="3" src="https://github.com/user-attachments/assets/7abcc1aa-8ba6-409c-8cc8-6255fe4dec9e" />
+
 
 1. 1층 내려가는 FND
 
-![image.png](attachment:58f09e1f-99ee-4a4e-9a75-239277ad3e2d:image.png)
+<img width="386" alt="4" src="https://github.com/user-attachments/assets/7fa330ae-efaf-4065-a846-da272e2c2118" />
 
 1. 2층으로 올라가는 FND
 
-![image.png](attachment:0dfc9e87-f25f-4630-b093-a2876a87c8de:image.png)
+<img width="520" alt="5" src="https://github.com/user-attachments/assets/e66a4f62-74ae-4eff-b36c-fc9ad49763da" />
+
 
 - **stepmotor-photosensor 기능**
 1. U자형 포토 센서 사이에 장애물이 지나가면 빛이 차단되어 해당 층 도달 여부 검사.
