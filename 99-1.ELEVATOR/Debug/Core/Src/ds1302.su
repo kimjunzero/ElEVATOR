@@ -1,0 +1,17 @@
+ds1302.c:5:6:ds1302_main	40	static
+ds1302.c:35:6:display_date_time	56	static
+ds1302.c:54:6:read_time_ds1302	8	static
+ds1302.c:61:6:read_date_ds1302	8	static
+ds1302.c:69:9:read_ds1302	24	static
+ds1302.c:91:9:bcd2dec	24	static
+ds1302.c:104:9:dec2bcd	24	static
+ds1302.c:114:6:rx_ds1302	24	static
+ds1302.c:134:6:init_ds1302	8	static
+ds1302.c:145:1:write_ds1302	16	static
+ds1302.c:157:1:tx_ds1302	24	static
+ds1302.c:183:6:input_dataline_ds1302	32	static
+ds1302.c:193:6:output_dataline_ds1302	32	static
+ds1302.c:204:6:clock_ds1302	8	static
+ds1302.c:210:6:init_gpio_ds1302	8	static
+ds1302.c:216:6:init_date_time	4	static
+ds1302.c:231:6:set_rtc	40	static

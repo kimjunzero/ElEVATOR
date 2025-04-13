@@ -1,0 +1,2 @@
+servo_motor.c:16:6:servo_motor_main	8	static
+servo_motor.c:62:6:servo_motor_control	4	static

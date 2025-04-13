@@ -1,0 +1,5 @@
+stepmotor.c:10:6:set_rpm	16	static
+stepmotor.c:15:6:handle_floor_buttons	8	static
+stepmotor.c:54:6:stepmotor_main	8	static
+stepmotor.c:72:5:stepmotor_drive	16	static
+stepmotor.c:95:6:loop	8	static

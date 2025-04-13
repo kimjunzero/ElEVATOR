@@ -1,0 +1,5 @@
+bmp180.c:9:6:calib_data	48	static
+bmp180.c:33:10:read_uncom_temp	32	static
+bmp180.c:53:7:cal_temp	32	static
+bmp180.c:65:10:read_uncom_press	40	static
+bmp180.c:94:7:cal_preass	64	static

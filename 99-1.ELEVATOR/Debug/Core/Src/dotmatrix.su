@@ -1,0 +1,5 @@
+dotmatrix.c:97:6:dotmatrix_main	8	static
+dotmatrix.c:116:6:show_floor	16	static
+dotmatrix.c:128:6:scroll_up	16	static
+dotmatrix.c:149:6:scroll_down	16	static
+dotmatrix.c:171:6:dotmatrix_display	24	static
